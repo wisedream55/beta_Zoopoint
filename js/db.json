@@ -1,0 +1,19 @@
+[{
+    "id": 1,
+    "TM": "1stChoice",
+    "description": "Опис",
+    "weight": 3,
+    "price": 125,
+    "article": "ФЧСЯР15",
+    "imgUrl": "(../picture/800.jpg)"
+}
+,{
+    "id": 122,
+    "TM": "1stChoice",
+    "description": "Опис",
+    "weight": 3,
+    "price": 125,
+    "article": "ФЧСЯР15",
+    "imgUrl": "(../picture/800.jpg)"
+}
+]

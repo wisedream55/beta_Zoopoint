@@ -1,0 +1,189 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* _______________________________Header__________________________ */
+.box {
+    display: flex;
+}
+
+.titleHeader {
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.telegram {
+    background: url(../picture/telegram.svg) no-repeat;
+    height: 35px;
+    width: 35px;
+}
+
+.facebook {
+    background: url(../picture/facebook.svg) no-repeat;
+    height: 33px;
+    width: 35px;
+    margin-left: 60px;
+}
+
+.instagram {
+    background: url(../picture/instagram.svg) no-repeat;
+    height: 32px;
+    width: 35px;
+    margin: 3px;
+}
+
+.titleLogo {
+    width: 200px;
+}
+
+.logo-img {
+    background-image: url(../picture/logoPoint.png);
+    background-repeat: no-repeat;
+    background-size: 270px;
+    height: 80px;
+    background-position: center;
+    margin-top: 10px;
+}
+
+.titleButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.email {
+    background-color: black;
+    color: white;
+    height: 49%;
+    border-radius: 30px;
+    margin-right: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+.number {
+    background-color: #ebebeb;
+    ;
+    color: black;
+    height: 49%;
+    border-radius: 20px;
+    border: none;
+    margin-right: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+a {
+    color: black;
+    text-decoration: 0;
+}
+
+.menu-list {
+    width: 100%;
+}
+
+.menu-list ul {
+    list-style: none;
+    text-align: center;
+    font-size: 14px;
+}
+
+.menu-list li {
+    display: inline-block;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5;
+    margin-right: 1.5%;
+    margin-left: 1.5%;
+}
+
+hr {
+    font-size: 14px;
+    color: rgb(51, 51, 51);
+    opacity: 0.2;
+    width: 90%;
+}
+
+/* _____________________________Title page_____________________________ */
+div {
+    display: block;
+}
+
+.titleCat {
+    background: url(../picture/titleCat.png) no-repeat;
+}
+
+.titleDog {
+    background-image: url(../picture/titleDog.png);
+    transition: background-image 1s ease-out;
+}
+
+.titleBird {
+    background: url(../picture/titleBird.png) no-repeat;
+}
+
+.titleRodent {
+    background: url(../picture/titleRodent.png) no-repeat;
+
+}
+
+.titlePicture {
+    background-size: 100%;
+    width: 755px;
+    height: 570px;
+    float: left;
+}
+
+.titleDog:hover {
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.20)),
+        url(../picture/titleDog.png);
+    /* transition: background-image 0.2s linear; */
+}
+
+.titleCat:hover {
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.20)),
+        url(../picture/titleCat.png);
+}
+
+.titleBird:hover {
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.20)),
+        url(../picture/titleBird.png);
+}
+
+.titleRodent:hover {
+    transition: 0.55s opacity, 0.55s visibility;
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.20)),
+        url(../picture/titleRodent.png);
+
+}
+
+.container {
+    text-align: center;
+    font-size: 36px;
+    color: #fff;
+    opacity: 0;
+    font-weight: 800;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 0;
+}
+
+.container:hover {
+    opacity: 1;
+}
+
+.container p {
+    width: 100%;
+    text-align: center;
+}

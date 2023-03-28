@@ -1,0 +1,184 @@
+.products-page {
+    padding-top: 135px;
+}
+
+.chapter-products {
+    font-size: 12px;
+    border-color: white;
+}
+
+.order-products {
+    float: right;
+    width: 15%;
+}
+
+.search-products {
+    display: inline-flex;
+    margin-left: 37%;
+
+}
+
+.search-line-products {
+    width: 60%;
+    border: 1px #ddd solid;
+    background: #f8f8f8;
+    color: #000;
+    padding: 2px 30px 2px 10px;
+    border-radius: 5px 0 0 5px;
+    font-size: 12px;
+}
+
+.search-btm-products {
+    width: 3px;
+    border: 1px #ddd solid;
+    color: #000;
+    padding: 2px 9px 2px 9px;
+    border-radius: 0 5px 5px 0;
+    font-size: 12px;
+    background: url(../picture/Search.jpg);
+    align-items: center;
+    justify-content: center;
+    background-size: contain;
+    text-align: center;
+    background-repeat: no-repeat;
+    border-left: none;
+
+}
+
+.order-products select {
+    border: 1px #ddd solid;
+    background: #f8f8f8;
+    color: #000;
+    padding: 2px 30px 2px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    align-self: center;
+}
+
+.products-menu {
+    display: flex;
+    padding-top: 3px;
+}
+
+.img-products {
+    background: url(../picture/800.jpg)no-repeat;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    background-size: contain;
+    text-align: center;
+    padding-left: 10px;
+    margin-left: 55px;
+}
+
+.tm-products {
+    float: left;
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.35;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+.article-products {
+    float: left;
+    text-align: center;
+    font-weight: 300;
+    line-height: 1.55;
+    font-size: 12px;
+    color: #777;
+    margin-top: 4px;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+.description-products {
+    float: left;
+    text-align: center;
+    margin-top: 8px;
+    font-size: 12px;
+    line-height: 1.55;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: 300;
+    width: 26.3%;
+    padding-left: 3.5%;
+    padding-right: 3.5%;
+}
+
+.price-products {
+    float: left;
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.35;
+    font-family: 'Roboto', Arial, sans-serif;
+    margin-top: 12px;
+}
+
+.weighs-products {
+    float: left;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.weighs-products select {
+    width: 33%;
+    border: 1px #ddd solid;
+    background: #f8f8f8;
+    color: #000;
+    padding: 2px 30px 2px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    align-self: center;
+}
+
+.weighs-products legend {
+    font-size: 14px;
+    font-weight: 300;
+    margin-left: 33.3%
+}
+
+.btm-products {
+    float: left;
+    text-align: center;
+}
+
+.btm-more {
+    color: #ffffff;
+    background-color: #575757;
+    border-radius: 5px;
+    margin: 0 2px 8px;
+    height: 45px;
+    font-size: 14px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+    border: 1px solid #000000;
+}
+
+.btm-more:hover {
+    color: #ff8562;
+}
+
+.btm-buy:hover {
+    color: #ff8562;
+}
+
+.btm-buy {
+    border: 1px solid #000000;
+    color: #000000;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin: 0 2px 8px;
+    height: 45px;
+    font-size: 14px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+}
